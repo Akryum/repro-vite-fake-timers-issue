@@ -1,0 +1,31 @@
+{
+  "name": "repro-vtu-set-value-issue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 5050",
+    "test:unit": "vitest --environment jsdom",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "lodash": "^4.17.21",
+    "pinia": "^2.0.9",
+    "vue": "^3.2.27"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.0.29",
+    "@pinia/testing": "^0.0.9",
+    "@types/node": "^16.11.21",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "jsdom": "^19.0.0",
+    "typescript": "~4.5.4",
+    "unplugin-icons": "^0.13.0",
+    "unplugin-vue-components": "^0.17.14",
+    "vite": "^2.7.13",
+    "vitest": "^0.2.4",
+    "vue-tsc": "^0.29.8"
+  }
+}
